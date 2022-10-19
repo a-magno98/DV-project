@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+[data-tooltip] {
+  position: absolute;
+  width: auto;
+  height: auto;
+  font-size: smaller;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  margin: auto;
+}
+
+[data-tooltip].hidden {
+  display: none;
+}
+
+[data-tooltip] p {
+  margin-bottom: 1;
+}
+
+body {
+  background-color: #d8d8d833;
+  margin: auto;
+}
+
+.text_container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'Roboto Slab', serif;
+  color: dodgerblue;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: darkslategray;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: larger;
+  text-align: left
+}
+
+/* Used by map visualizations */
+
+.vax-q1-5 {
+  fill: #edf8e9;
+}
+
+.vax-q2-5 {
+  fill: #bae4b3;
+}
+
+.vax-q3-5 {
+  fill: #74c476;
+}
+
+.vax-q4-5 {
+  fill: #31a354;
+}
+
+.vax-q5-5 {
+  fill: #006d2c;
+}
+
+.cases-q1-5 {
+  fill: #fee5d9;
+}
+
+.cases-q2-5 {
+  fill: #fcae91;
+}
+
+.cases-q3-5 {
+  fill: #fb6a4a;
+}
+
+.cases-q4-5 {
+  fill: #de2d26;
+}
+
+.cases-q5-5 {
+  fill: #a50f15;
+}
+
+
+/* styling divs and containers */
+
+.form-range {
+  width: 50%;
+}
+
+.viz_container {
+  width: 50%;
+  margin: auto;
+}
+
+.page_header {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+  box-shadow: 2px 3px 3px 2px lightgray;
+  z-index: -1;
+}
+
+/* For handling the tabs */
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tabs {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
+  box-shadow: 2px 3px 3px 2px lightgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  background-color: #CCC;
+}
+
+.tab:hover {
+  background-color: #AAA;
+}
+
+.tab-content {
+  position: absolute;
+  z-index: -1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
