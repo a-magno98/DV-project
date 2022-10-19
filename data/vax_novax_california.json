@@ -1,0 +1,20 @@
+{
+    "nodes":[
+        {"node": 0, "name": "Population", "color": "#4e79a7"},
+        {"node": 1, "name": "Non-vaccinated", "color": "#b07aa1"},
+        {"node": 2, "name": "Vaccinated", "color": "#59a14f"},
+        {"node": 3, "name": "Cases", "color": "#edc948"},
+        {"node": 4, "name": "Hospitalizations", "color": "#f28e2b"},
+        {"node": 5, "name": "Deaths", "color": "#e15759"}
+    ],
+    "links":[
+        {"source": 3, "target": 1, "value":62.9},
+        {"source": 4, "target": 1, "value":72.1},
+        {"source": 5, "target": 1, "value":83.9},
+        {"source": 3, "target": 2, "value":37.1},
+        {"source": 4, "target": 2, "value":27.9},
+        {"source": 5, "target": 2, "value":16.1},
+        {"source": 1, "target": 0, "value":19.6},
+        {"source": 2, "target": 0, "value":80.4}
+    ]
+}
