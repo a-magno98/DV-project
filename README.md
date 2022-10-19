@@ -1,5 +1,5 @@
 # DV-project
-Final project for the course Data Visualization.
+Final project for the Data Visualization course. 
 
 ## Goal 
 The goal of the project is to show how it is possible to lie with data regarding COVID-19 vaccination and to show how COVID-19 pandemic vaccines ultimately worked in preventing severe cases of the disease leading to death.
