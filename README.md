@@ -2,7 +2,7 @@
 Final project for the course Data Visualization.
 
 ## Goal 
-The aim of the project is to show how vaccines for COVID-19 pandemic have worked in preventing the serious case of the disease that leads to death.
+The goal of the project is to show how it is possible to lie with data regarding COVID-19 vaccination and to show how COVID-19 pandemic vaccines ultimately worked in preventing severe cases of the disease leading to death.
 
 The start of the global COVID-19 pandemic, and its monitoring on a global scale have created lots of data to be dealt with. What is particularly interesting is that for the first time the general public not only was interested in said data, but also had an easy and mainsteam way to access it.
 
